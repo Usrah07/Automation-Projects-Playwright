@@ -1,4 +1,4 @@
-# SQA-automation-DemoQA
+# SQA-automation-Playwright-python
 
 This project automates the testing of the **DemoQA** website using **Playwright** with **JavaScript**. The tests cover a wide range of functionality including interactions with dropdowns, web elements, radio buttons, file upload and download, links, checkboxes, and text boxes.
 
