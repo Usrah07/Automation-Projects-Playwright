@@ -1,30 +1,60 @@
-# SQA-automation-Playwright-python
+Project Overview
 
-This project automates the testing of the **DemoQA** website using **Playwright** with **JavaScript**. The tests cover a wide range of functionality including interactions with dropdowns, web elements, radio buttons, file upload and download, links, checkboxes, and text boxes.
+This repository contains automation scripts using Playwright with JavaScript for testing the DemoQA Elements section. It demonstrates interaction and validation of various web components such as Text Boxes, Checkboxes, Radio Buttons, Web Tables, Buttons, Links, and File Upload/Download.
 
-## Getting Started
+🎁 Features Covered
 
-To get a local copy up and running, follow these simple steps.
+✅ Elements Homepage Navigation
 
-### Prerequisites
+✅ Text Box Form Submission
 
-- Install [Node.js](https://nodejs.org/) on your machine.
-- Install Playwright using the following command:
-  ```bash
-  npm install playwright
+✅ Check Box Selection
 
-  
-Tests Covered
-Login Test: Verifies the login functionality.
-Product Listing Test: Checks the product listing and ensures all items are displayed.
-Dropdown Test: Verifies that dropdown menus are working and selecting options correctly.
-Radio Button Test: Ensures radio buttons are functioning as expected.
-File Upload & Download Test: Checks that file upload and download functionalities work.
-Links Check: Verifies that all links on the website are functional.
-Checkbox Test: Verifies that checkboxes can be selected and deselected.
-Text Box Test: Ensures that text boxes accept input correctly.
-Contributing
-Feel free to fork the repository and submit pull requests. Please follow the coding conventions and include tests for any new features.
+✅ Radio Button Validation
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+✅ Web Tables (Add/Edit/Delete/Search)
+
+✅ Buttons (Double Click, Right Click, Dynamic Click)
+
+✅ Links (New Tab + API Calls)
+
+✅ File Upload & Download
+
+🛠️ Tech Stack Used
+
+Tool/Library
+
+Purpose
+
+Playwright
+
+Web automation framework
+
+JavaScript
+
+Scripting language
+
+Node.js
+
+Runtime environment
+
+XPath Selectors
+
+Element targeting
+
+✍️ How to Run This Project
+
+1. Clone the Repo
+
+git clone https://github.com/your-username/demoqa-playwright.git
+cd demoqa-playwright
+
+2. Install Dependencies
+
+npm install
+
+3. Run Tests
+
+npx playwright test
+
+Optional: Use npx playwright test --headed to see browser in action.
